@@ -1,0 +1,24 @@
+
+
+.bloc
+{
+@include bloc-layout;
+}
+
+.bloc__starter
+{
+    @include bloc-layout;
+animation: fadin 1500ms forwards;
+}
+
+.bloc__main
+{
+    @include bloc-layout;
+animation: fadin 1500ms both 500ms;
+}
+
+.bloc__dessert
+{
+    @include bloc-layout;
+animation: fadin 1500ms both 1000ms;
+}

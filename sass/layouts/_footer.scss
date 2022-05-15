@@ -1,0 +1,12 @@
+footer {
+    @include footer;
+    @include for-tablet-up {
+        display: flex;
+        flex-direction: column;
+        ul {
+            display: flex;
+            flex-flow: row;
+            justify-content: space-between;
+     }
+    }
+}

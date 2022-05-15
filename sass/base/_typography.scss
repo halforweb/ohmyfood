@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*police*/
+
+*
+{
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-family: 'Skrikhand';
+    font-size:2rem;
+    font-style: italic;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {
+    font-size: 1.6rem;
+    font-weight:bold;
+}
+
+h3 {
+    color: $colour-background-dark;
+    font-size: 1.3rem;
+}
+
+.headline {
+    font-size: 1.1rem;
+    color: black;
+    font-weight: bold;
+    @include threedots;
+
+}
+
+.byline 
+{
+    font-size: 1rem;
+    color: grey; 
+    @include threedots;
+
+}
+
+.bloc__buttons__btn__heading
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+.search-bloc__byline
+{
+    font-size: 1.1rem;
+    color: grey; 
+}
+
+.bloc__buttons__btn__icon
+{font-size: 1.4rem;
+    color: grey;
+    }
+
+.fa-arrow-left
+{font-size: 1.5rem;
+color: black;}
+
+.btn__big
+{
+    font-size: 1.1rem;
+}

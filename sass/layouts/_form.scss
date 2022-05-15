@@ -1,0 +1,19 @@
+.location {    
+    @include padding;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    gap:0.5rem;
+    margin-top:1.5px ;
+    background: $colour-background-medium;
+
+    &__input {
+        width: fit-content;
+        border: none;
+        outline: none;
+        opacity: 1;
+        font-weight: 700;
+        background: $colour-background-medium;
+    }
+}

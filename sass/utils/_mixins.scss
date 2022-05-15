@@ -1,0 +1,74 @@
+@mixin for-tablet-up {
+    @media (min-width: $breakpoint-tablet) { @content; }
+ }
+ @mixin for-desktop-up {
+    @media (min-width: $breakpoint-desktop) { @content; }
+ }
+
+ @mixin body-position {
+    max-width: 768px;
+    min-width: 320px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+@mixin bloc-layout
+{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: space-around;
+gap: 10px;
+padding-bottom: 1rem;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+@mixin footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: $colour-background-dark;
+    img{        
+        width: 5rem;
+        @include margin;
+        filter: invert(1);
+    }
+    ul {
+        list-style: none;
+        list-style-type: none;
+        padding-inline-start: 0;
+    }
+    li {        
+        margin-bottom: .5rem;
+        @include margin;  
+        a {
+            color: #fff;
+        }      
+    }
+    .icon {
+        margin-right: .5rem;
+        font-size: .8rem;
+    }
+}
+
+@mixin box-shadow {
+    box-shadow: rgba(0, 0, 0, 0.20) 20px 20px 20px -20px;
+}
+
+@mixin margin {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+
+@mixin padding {
+    padding: 0.5rem;
+}
+
+@mixin threedots {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

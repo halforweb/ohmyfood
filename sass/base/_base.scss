@@ -1,0 +1,14 @@
+body {
+    @include body-position;
+    @include for-tablet-up {
+        max-width: 100%;
+    }
+}    
+
+main
+{
+    @include body-position;
+    @include for-tablet-up {
+        max-width: 100%;
+    }
+}

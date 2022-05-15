@@ -1,0 +1,17 @@
+.header {
+    @include padding;
+    box-shadow: rgba(72, 72, 72, 0.32) 2px 2px 2px 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    &__logo {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+
+img {
+    width: 100%;
+}}
+    }  

@@ -1,6 +1,7 @@
 
 .loader {
     display: flex;
+    pointer-events: none;
     &::before {
         content: '';
         position: fixed;

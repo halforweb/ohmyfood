@@ -340,6 +340,7 @@ footer .icon {
 
 .loader {
   display: flex;
+  pointer-events: none;
 }
 .loader::before {
   content: "";

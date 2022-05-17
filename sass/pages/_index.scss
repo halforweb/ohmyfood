@@ -156,6 +156,15 @@ display: flex;
 flex-direction: column;
 align-content: space-around;
 gap: 10px;
+@include for-tablet-up {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    gap: 20px;
+    padding-bottom: 20px;
+}
 }
 
 &__card{
@@ -166,7 +175,9 @@ gap: 10px;
     border-radius: 15px 15px 15px 15px;
     background: #fff;
     @include box-shadow;
-    
+    @include for-tablet-up {
+        width: 40%;
+    }
 
 &__image{
 

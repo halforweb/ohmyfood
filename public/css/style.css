@@ -489,6 +489,17 @@ footer .icon {
   align-content: space-around;
   gap: 10px;
 }
+@media (min-width: 768px) {
+  .bloc-restaurants__master {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+}
 .bloc-restaurants__card {
   width: 100%;
   display: flex;
@@ -497,6 +508,11 @@ footer .icon {
   border-radius: 15px 15px 15px 15px;
   background: #fff;
   box-shadow: rgba(0, 0, 0, 0.2) 20px 20px 20px -20px;
+}
+@media (min-width: 768px) {
+  .bloc-restaurants__card {
+    width: 40%;
+  }
 }
 .bloc-restaurants__card__image {
   width: 100%;

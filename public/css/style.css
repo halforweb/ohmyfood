@@ -499,7 +499,7 @@ footer .icon {
   width: 100%;
   height: 60%;
   border-radius: 15px 15px 0px 0px;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .bloc-restaurants__card__newbox {

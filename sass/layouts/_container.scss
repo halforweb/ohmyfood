@@ -5,20 +5,44 @@
 @include bloc-layout;
 }
 
+.menu__details
+{
+    @include for-tablet-up
+    {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width :100%
+    }
+}
+
 .bloc__starter
 {
     @include bloc-layout;
 animation: fadin 1500ms forwards;
+@include for-tablet-up
+    {
+    width: 30%
+    }
 }
 
 .bloc__main
 {
     @include bloc-layout;
 animation: fadin 1500ms both 500ms;
+@include for-tablet-up
+    {
+    width: 30%
+    }
 }
 
 .bloc__dessert
 {
     @include bloc-layout;
 animation: fadin 1500ms both 1000ms;
+@include for-tablet-up
+    {
+    width: 30%
+    }
 }

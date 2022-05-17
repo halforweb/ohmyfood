@@ -243,6 +243,16 @@ a {
   padding-right: 1rem;
 }
 
+@media (min-width: 768px) {
+  .menu__details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+}
+
 .bloc__starter {
   display: flex;
   flex-direction: column;
@@ -253,6 +263,11 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
   animation: fadin 1500ms forwards;
+}
+@media (min-width: 768px) {
+  .bloc__starter {
+    width: 30%;
+  }
 }
 
 .bloc__main {
@@ -266,6 +281,11 @@ a {
   padding-right: 1rem;
   animation: fadin 1500ms both 500ms;
 }
+@media (min-width: 768px) {
+  .bloc__main {
+    width: 30%;
+  }
+}
 
 .bloc__dessert {
   display: flex;
@@ -277,6 +297,11 @@ a {
   padding-left: 1rem;
   padding-right: 1rem;
   animation: fadin 1500ms both 1000ms;
+}
+@media (min-width: 768px) {
+  .bloc__dessert {
+    width: 30%;
+  }
 }
 
 .location {

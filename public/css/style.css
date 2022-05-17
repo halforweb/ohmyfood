@@ -95,6 +95,12 @@ a {
   font-size: 1.1rem;
 }
 
+.bloc-restaurants__card__newbox {
+  font-family: "Roboto";
+  font-size: 1rem;
+  font-weight: bold;
+}
+
 @keyframes bars {
   0% {
     transform: scaleY(0.5);
@@ -510,11 +516,9 @@ footer .icon {
   top: 1.5rem;
   color: green;
   background-color: aquamarine;
-  font-family: "Roboto", sans-serif;
-  font-size: 10px;
-  font-weight: bold;
   padding: 5px;
   border-radius: 0.1rem;
+  width: 20%;
 }
 
 .bloc-restaurants__card__body {
